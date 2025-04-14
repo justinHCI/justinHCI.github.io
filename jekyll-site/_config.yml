@@ -1,0 +1,19 @@
+title: Justin Edwards - Professional Homepage
+description: A professional homepage for Justin Edwards, showcasing publications, teaching, and community involvement.
+baseurl: "" # Leave empty if deploying to the root of the domain
+url: "https://justinhci.github.io" # Full URL of your site
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - _config.yml
+  - index.html
+  - teaching.html
+  - publications.html
+  - community.html
+  - update_publications.py
