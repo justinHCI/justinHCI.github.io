@@ -2,6 +2,13 @@
 layout: default
 title: Teaching and Supervision
 ---
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    <script src="{{ site.baseurl }}/assets/js/carousel.js" defer></script>
+</head>
 
 <h1>Welcome to My Portfolio</h1>
 <p>Explore the sections below to learn more about my journey, teaching philosophy, materials, and feedback.</p>
@@ -63,16 +70,3 @@ title: Teaching and Supervision
     <button class="carousel-btn next">→</button>
 </div>
 
-<script>
-    const carousel = document.querySelector('.carousel');
-    const nextButton = document.querySelector('.carousel-btn.next');
-    const prevButton = document.querySelector('.carousel-btn.prev');
-
-    nextButton.addEventListener('click', () => {
-        carousel.scrollBy({ left: 300, behavior: 'smooth' });
-    });
-
-    prevButton.addEventListener('click', () => {
-        carousel.scrollBy({ left: -300, behavior: 'smooth' });
-    });
-</script>
