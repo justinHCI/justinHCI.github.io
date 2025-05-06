@@ -4,7 +4,7 @@ title: Teaching and Supervision
 ---
 
 # Teaching and Supervision
-
+[See my full teaching portfolio here](/portfolio.html)
 ## Teaching
 
 I am currently involved in teaching the following courses at the University of Oulu:  

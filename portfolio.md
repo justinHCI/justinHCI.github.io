@@ -1,0 +1,78 @@
+---
+layout: default
+title: Teaching and Supervision
+---
+
+<h1>Welcome to My Portfolio</h1>
+<p>Explore the sections below to learn more about my journey, teaching philosophy, materials, and feedback.</p>
+<div class="carousel-container">
+    <button class="carousel-btn prev">←</button>
+    <div class="carousel">
+        <div class="card">
+            <img src="https://via.placeholder.com/300x150" alt="Characterizing myself as a teacher" />
+            <h2>Characterizing Myself as a Teacher</h2>
+            <p>As a teacher and supervisor, I strive to make students’ time with me feel safe, enjoyable, and meaningful. I want them to know they can ask anything—from the basic to the bizarre—and expect thoughtful discussion with me and their peers. I also encourage students to try new strategies and practice new skills without fear of judgment or negative assessment.<br><br>
+            
+            Some students seek a supervisor who will push them toward ambitious goals; others look for someone who offers steady support and understanding. I aim to be the kind of teacher both types feel comfortable turning to—someone who meets students where they are while encouraging them to grow. Along the way, students will sometimes see me as a jokey teacher or the teacher who gives a lot of time for tangential discussions. But throughout the teaching relationship, I think this approach is worthwhile as students characterize me in the way I characterize myself – a teacher who enthusiastically supports the goals of my students.</p>
+        </div>
+        
+        <div class="card">
+            <a href="my-path.html">
+                <img src="https://via.placeholder.com/300x150" alt="My Path" />
+            </a>
+            <h2>My Path</h2>
+            <p>My teaching journey began during college, where I combined studies in cognitive and educational psychology with hands-on teaching experiences. Over time, I’ve grown through roles as a lecturer, supervisor, and course instructor, refining my methods to match my philosophy. Now, as a researcher and teacher, I focus on delivering collaborative, constructive classes that benefit both students and myself as the teacher.</p>
+            <a href="my-path.html" class="button">Read my full path to becoming a teacher →</a>
+        </div>
+
+        <div class="card">
+            <a href="teaching-philosophy.html">
+                <img src="https://via.placeholder.com/300x150" alt="Teaching Philosophy" />
+            </a>
+            <h2>Teaching Philosophy</h2>
+            <p>My teaching philosophy emphasizes a student-led approach, fostering exploration, metacognition, and self-regulated learning. It is grounded in theories of social-constructivism, situativity, and regulation of learning, emphasizing active, collaborative, and contextually meaningful learning experiences.</p>
+            <a href="teaching-philosophy.html" class="button">Read my full teaching philosophy →</a>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300x150" alt="Pedagogy Study Goals" />
+            <h2>Pedagogy Study Goals</h2>
+            <p>My goals in my continued university pedagogy studies are to renew and update my knowledge about theories of teaching and learning and to reflect on how I can put these theories into practice. While some major themes of learning science research are already well-known to me, practical teaching approaches like lesson planning and assessment have always been a learn-by-doing skill in my teaching career. By learning the theory and research behind my everyday practices as a teacher, I hope to be able to meaningfully reflect upon my teaching and become a self-regulating teacher, monitoring and adapting my practices to meet the goals of me and my students.</p>
+        </div>
+        
+
+
+        <div class="card">
+            <a href="teaching-materials.html">
+                <img src="https://via.placeholder.com/300x150" alt="Teaching Materials" />
+            </a>
+            <h2>Teaching Materials</h2>
+            <p>Access a collection of resources and materials I’ve developed for my courses.</p>
+            <a href="teaching-materials.html" class="button">Learn More →</a>
+        </div>
+
+        <div class="card">
+            <a href="teaching-feedback.html">
+                <img src="https://via.placeholder.com/300x150" alt="Teaching Feedback" />
+            </a>
+            <h2>Teaching Feedback</h2>
+            <p>Feedback on my teaching and supervision has helped me shape my values as a teacher and commit to them in practice. Feedback I recieve often reflects students feelings of joy and empowerment in my classes, with less emphasis on content mastery for its own sake. I treasure this feedback and would rather be remembered as a teacher who helped students feel capable and helped them have fun rather than one who merely imparted knowledge and awarded a grade.</p>
+            <a href="teaching-feedback.html" class="button">Read some selected feedback →</a>
+        </div>
+    </div>
+    <button class="carousel-btn next">→</button>
+</div>
+
+<script>
+    const carousel = document.querySelector('.carousel');
+    const nextButton = document.querySelector('.carousel-btn.next');
+    const prevButton = document.querySelector('.carousel-btn.prev');
+
+    nextButton.addEventListener('click', () => {
+        carousel.scrollBy({ left: 300, behavior: 'smooth' });
+    });
+
+    prevButton.addEventListener('click', () => {
+        carousel.scrollBy({ left: -300, behavior: 'smooth' });
+    });
+</script>
