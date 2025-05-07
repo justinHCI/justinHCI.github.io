@@ -106,6 +106,18 @@ footer .socials p {
         display: inline-block; /* Ensure links wrap properly */
         margin: 5px 2px; /* Adjust spacing for smaller screens */
     }
+    .card-container {
+        flex-direction: column; /* Stack cards vertically on smaller screens */
+        align-items: center;
+    }
+
+    .card {
+        max-width: 90%; /* Take up most of the screen width */
+    }
+
+    .carousel {
+        height: auto; /* Allow dynamic height on smaller screens */
+    }
 }
 
 
@@ -143,4 +155,183 @@ footer .socials p {
         display: block; /* Stack links vertically */
         margin: 5px 0; /* Add spacing between links */
     }
+
+    .carousel {
+        height: auto; /* Ensure cards stack properly on very small screens */
+    }
+}
+
+pull-quote {
+    display: block;
+    margin: 20px auto;
+    padding: 15px;
+    border-left: 5px solid #66b3ff; /* Match the link color */
+    background-color: #2c2c2c; /* Match the site's dark background */
+    font-style: italic;
+    color: #e0e0e0; /* Match the site's text color */
+    max-width: 600px;
+    border-radius: 8px; /* Add rounded corners for a modern look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+
+pull-quote blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+pull-quote footer {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #99ccff; /* Slightly lighter blue for footer text */
+    text-align: right;
+}
+
+/* Card Container */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Individual Card */
+.card {
+    border: 1px solid #444;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    max-width: 600px; /* Increased width for more horizontal space */
+    flex: 0 0 500px; /* Fixed width for carousel layout */
+    text-align: left; /* Align text to the left for better readability */
+    padding: 20px; /* Increased padding for better spacing */
+    background-color: #2c2c2c;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    height: auto; /* Allow height to adjust dynamically */
+}
+
+/* Card Image */
+.card img {
+    max-width: 100%;
+    height: 150px; /* Fixed height for images */
+    object-fit: cover; /* Ensure images maintain aspect ratio */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Card Title */
+.card h2 {
+    font-size: 1.4em; /* Slightly smaller font size */
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+/* Card Text */
+.card p {
+    font-size: 1em; /* Slightly smaller text */
+    margin: 10px 0;
+    color: #e0e0e0;
+    line-height: 1.6; /* Adjusted line height for readability */
+    overflow: visible; /* Ensure text is fully visible */
+    white-space: normal; /* Allow text to wrap */
+}
+
+/* Card Button */
+.card .button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007acc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9em; /* Slightly smaller button text */
+    transition: background-color 0.2s ease;
+}
+
+.card .button:hover {
+    background-color: #005f99;
+}
+
+/* Card Hover Effect */
+.card:hover {
+    transform: translateY(-3px); /* Subtle hover effect */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+/* Carousel Container */
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/* Carousel */
+.carousel {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px;
+    align-items: stretch; /* Ensures all cards align to the tallest one */
+    height: auto; /* Allow height to adjust dynamically */
+}
+
+/* Hide Scrollbar */
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+/* Carousel Buttons */
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 1.5em;
+    border-radius: 50%;
+}
+
+.carousel-btn.prev {
+    left: 10px;
+}
+
+.carousel-btn.next {
+    right: 10px;
+}
+
+.carousel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* General Button Style */
+.btn {
+    display: inline-block;
+    background-color:#007acc; /* Match carousel-btn background */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 15px; /* Same padding as carousel-btn */
+    cursor: pointer;
+    font-size: 1em; /* Slightly smaller font size for general buttons */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline for links styled as buttons */
+    text-align: center;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+/* Hover Effect for Buttons */
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
+}
+
+/* Optional: Add a Disabled State */
+.btn:disabled {
+    background-color: rgba(0, 0, 0, 0.3); /* Lighter background for disabled buttons */
+    cursor: not-allowed;
+    opacity: 0.6;
 }
