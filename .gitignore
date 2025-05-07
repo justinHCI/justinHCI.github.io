@@ -1,0 +1,11 @@
+# Jekyll build output
+_site/
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
+
+# Other common files to ignore
+.DS_Store
+node_modules/
+.env
+*.log
