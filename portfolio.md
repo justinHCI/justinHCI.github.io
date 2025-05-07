@@ -10,17 +10,17 @@ title: Teaching and Supervision
     <script src="{{ site.baseurl }}/assets/js/carousel.js" defer></script>
 </head>
 
-<h1>Welcome to My Portfolio</h1>
-<p>Explore the sections below to learn more about my journey, teaching philosophy, materials, and feedback.</p>
+<h1>Justin Edwards - Teaching Portfolio</h1>
+
 <div class="carousel-container">
     <button class="carousel-btn prev">←</button>
     <div class="carousel">
         <div class="card">
             <img src="/assets/absurd.design - Chapter 1 - 04.png" alt="Characterizing myself as a teacher" />
             <h2>Characterizing Myself as a Teacher</h2>
-            <p>As a teacher and supervisor, I strive to make students’ time with me feel safe, enjoyable, and meaningful. I want them to know they can ask anything—from the basic to the bizarre—and expect thoughtful discussion with me and their peers. I also encourage students to try new strategies and practice new skills without fear of judgment or negative assessment.<br><br>
+            <p>As a teacher and supervisor, I strive to make students’ time with me feel safe, enjoyable, and meaningful. I want them to know they can ask anything – from the basic to the bizarre – and expect thoughtful discussion with me and their peers. I also encourage students to try new strategies and practice new skills without fear of judgment or negative assessment.<br><br>
             
-            Some students seek a supervisor who will push them toward ambitious goals; others look for someone who offers steady support and understanding. I aim to be the kind of teacher both types feel comfortable turning to—someone who meets students where they are while encouraging them to grow. Along the way, students will sometimes see me as a jokey teacher or the teacher who gives a lot of time for tangential discussions. But throughout the teaching relationship, I think this approach is worthwhile as students characterize me in the way I characterize myself – a teacher who enthusiastically supports the goals of my students.</p>
+            Some students seek a supervisor who will push them toward ambitious goals; others look for someone who offers steady support and understanding. I aim to be the kind of teacher both types feel comfortable turning to, someone who meets students where they are while encouraging them to grow. Along the way, students will sometimes see me as a jokey teacher or the teacher who gives a lot of time for tangential discussions. But throughout the teaching relationship, I think this approach is worthwhile as students characterize me in the way I characterize myself: a teacher who enthusiastically supports the goals of my students.</p>
         </div>
         
         <div class="card">
