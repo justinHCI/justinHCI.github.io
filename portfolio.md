@@ -54,8 +54,8 @@ title: Teaching and Supervision
                 <img src="/assets/absurd.design - Chapter 1 - 33.png" alt="Teaching Materials" />
             </a>
             <h2>Teaching Materials</h2>
-            <p>Access a collection of resources and materials I’ve developed for my courses.</p>
-            <a href="teaching-materials.html" class="button">Learn More →</a>
+            <p> I like experimenting with my teaching materials and techniques. This includes making formal and informal teaching videos, slide decks with jokes and games embeded into the material, and experimentation with different learning environments like Howspace. I especially like trying teaching methods which make my teaching more joyous, more accessible, and less ephemeral, so students can engage with them in different situations,  times, and places.</p>
+            <a href="teaching-materials.html" class="button">Check out some selected teaching materials→</a>
         </div>
 
         <div class="card">
