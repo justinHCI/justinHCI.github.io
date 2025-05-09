@@ -8,6 +8,8 @@ title: Publications
 ## Peer-reviewed Scientific Articles
 
 ### 2025
+- **Lämssä, J., Sobocinski, M., Edwards, J., & Järvelä, S.**(2025). Students’ socially shared regulation of learning during a collaborative inquiry task: Do groups’ diverse preconceptions matter? *International Journal of Science Education*, [DOI](https://doi.org/10.1080/09500693.2025.2504642)
+- **Doyle, P. R., Gessinger, I., Edwards, J., Clark, L., Dumbleton, O., Garaialde, D., and others** (2025). The Partner Modelling Questionnaire: A validated self-report measure of perceptions toward machines as dialogue partners. *ACM Transactions on Computer-Human Interaction.* [DOI](https://doi.org/10.1145/3729170)
 - **Edwards, J., Nguyen, A., Lämssä, J., Sobocinski, M., Whitehead, R., Dang, B., Roberts, A.S., & Järvelä, S.** (2025). Human-AI collaboration: Designing artificial agents to facilitate socially shared regulation among learners. *British Journal of Educational Technology, 56*, 712–733. [DOI](https://doi.org/10.1111/bjet.13534)
 - **Edwards, J., Nguyen, A., Lämssä, J., Sobocinski, M., Whitehead, R., Dang, B., Roberts, A.S., & Järvelä, S.** (2025). A wizard of oz methodology for designing future learning spaces. *Higher Education Research & Development, 44*(1), 47–162. [DOI](https://doi.org/10.1080/07294360.2024.2429433)
 - **Kraus, M., Zepf, S., Westhäußer, R., Feustel, I., Zargham, N., Aslan, I., Edwards, J., ... & André, E.** (2025). BEHAVE AI: BEst Practices and Guidelines for Human-Centric Design and EvAluation of ProactiVE AI Agents. *Companion Proceedings of the 30th International Conference on Intelligent User Interfaces*, 175-178 [DOI](https://doi.org/10.1145/3708557.3716155)

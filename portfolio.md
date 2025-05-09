@@ -47,8 +47,6 @@ title: Teaching and Supervision
             <p>My goals in my continued university pedagogy studies are to renew and update my knowledge about theories of teaching and learning and to reflect on how I can put these theories into practice. While some major themes of learning science research are already well-known to me, practical teaching approaches like lesson planning and assessment have always been a learn-by-doing skill in my teaching career. By learning the theory and research behind my everyday practices as a teacher, I hope to be able to meaningfully reflect upon my teaching and become a self-regulating teacher, monitoring and adapting my practices to meet the goals of me and my students.</p>
         </div>
         
-
-
         <div class="card">
             <a href="teaching-materials.html">
                 <img src="/assets/absurd.design - Chapter 1 - 33.png" alt="Teaching Materials" />
@@ -71,3 +69,4 @@ title: Teaching and Supervision
 </div>
 
 Illustrations from <a href = "https://absurd.design">absurd.design</a>.
+
