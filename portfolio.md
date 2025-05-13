@@ -10,7 +10,7 @@ title: Teaching and Supervision
     <script src="{{ site.baseurl }}/assets/js/carousel.js" defer></script>
 </head>
 
-<h1>Justin Edwards - Teaching Portfolio</h1>
+<h1>Justin Edwards - Teaching and Learning Portfolio</h1>
 
 <div class="carousel-container">
     <button class="carousel-btn prev">←</button>
