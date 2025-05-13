@@ -4,74 +4,128 @@ document.addEventListener('DOMContentLoaded', () => {
     const prevButton = document.querySelector('.carousel-btn.prev');
     const cards = document.querySelectorAll('.carousel .card');
 
+    let startX = 0;
+    let scrollLeft = 0;
+    let isDragging = false;
+
     // Function to scroll to the next or previous card
     function scrollToCard(direction) {
-        const currentScroll = carousel.scrollLeft;
         const containerWidth = carousel.clientWidth;
+        const currentScroll = carousel.scrollLeft;
         
-        // Determine which card is currently in view
+        // Find the target card based on current scroll position
         let targetCard = null;
-        let targetScroll = 0;
+        let minDistance = Infinity;
         
-        if (direction === 'next') {
-            // Find the first card that's fully or partially out of view to the right
-            for (const card of cards) {
-                const cardLeftEdge = card.offsetLeft;
-                const cardRightEdge = cardLeftEdge + card.offsetWidth;
-                
-                // If the right edge of the card is beyond the current view
-                if (cardLeftEdge > currentScroll + 20) {
-                    targetCard = card;
-                    targetScroll = cardLeftEdge - 10; // Adjust for margin
-                    break;
-                }
-            }
+        cards.forEach(card => {
+            const cardLeft = card.offsetLeft;
+            const cardCenter = cardLeft + (card.offsetWidth / 2);
+            const currentCenter = currentScroll + (containerWidth / 2);
+            const distance = cardCenter - currentCenter;
             
-            // If no card was found (we're at the end), scroll to the last card
-            if (!targetCard && cards.length > 0) {
-                targetCard = cards[cards.length - 1];
-                targetScroll = targetCard.offsetLeft - 10;
+            if (direction === 'next' && distance > 10 && distance < minDistance) {
+                minDistance = distance;
+                targetCard = card;
+            } else if (direction === 'prev' && distance < -10 && Math.abs(distance) < minDistance) {
+                minDistance = Math.abs(distance);
+                targetCard = card;
             }
-        } else {
-            // Find the first card that's fully or partially out of view to the left
-            for (let i = cards.length - 1; i >= 0; i--) {
-                const card = cards[i];
-                const cardLeftEdge = card.offsetLeft;
-                
-                // If the left edge of the card is before the current view
-                if (cardLeftEdge < currentScroll - 20) {
-                    targetCard = card;
-                    targetScroll = cardLeftEdge - 10; // Adjust for margin
-                    break;
-                }
-            }
-            
-            // If no card was found (we're at the beginning), scroll to the first card
-            if (!targetCard && cards.length > 0) {
-                targetCard = cards[0];
-                targetScroll = 0;
-            }
+        });
+
+        if (!targetCard && direction === 'next') {
+            targetCard = cards[cards.length - 1];
+        } else if (!targetCard && direction === 'prev') {
+            targetCard = cards[0];
         }
-        
-        // Scroll to the target position
+
         if (targetCard) {
+            // Calculate scroll position to center the target card
+            const cardLeft = targetCard.offsetLeft;
+            const cardWidth = targetCard.offsetWidth;
+            const scrollPosition = cardLeft - (containerWidth - cardWidth) / 2;
+            
             carousel.scrollTo({
-                left: targetScroll,
+                left: scrollPosition,
                 behavior: 'smooth'
             });
         }
     }
 
+    // Center the first card initially
+    function centerInitialCard() {
+        if (cards.length > 0) {
+            const containerWidth = carousel.clientWidth;
+            const firstCard = cards[0];
+            const cardWidth = firstCard.offsetWidth;
+            const scrollPosition = firstCard.offsetLeft - (containerWidth - cardWidth) / 2;
+            
+            carousel.scrollTo({
+                left: scrollPosition,
+                behavior: 'auto'
+            });
+        }
+    }
+
+    // Add touch and mouse drag support
+    function startDragging(e) {
+        isDragging = true;
+        carousel.classList.add('dragging');
+        startX = e.type === 'mousedown' ? e.pageX : e.touches[0].pageX;
+        scrollLeft = carousel.scrollLeft;
+    }
+
+    function stopDragging() {
+        isDragging = false;
+        carousel.classList.remove('dragging');
+    }
+
+    function drag(e) {
+        if (!isDragging) return;
+        e.preventDefault();
+        const x = e.type === 'mousemove' ? e.pageX : e.touches[0].pageX;
+        const walk = (x - startX) * 2;
+        carousel.scrollLeft = scrollLeft - walk;
+    }
+
+    // Event listeners for touch and mouse drag
+    carousel.addEventListener('mousedown', startDragging);
+    carousel.addEventListener('touchstart', startDragging);
+
+    carousel.addEventListener('mousemove', drag);
+    carousel.addEventListener('touchmove', drag);
+
+    carousel.addEventListener('mouseleave', stopDragging);
+    carousel.addEventListener('mouseup', stopDragging);
+    carousel.addEventListener('touchend', stopDragging);
+
+    // Prevent click events while dragging
+    carousel.addEventListener('click', (e) => {
+        if (carousel.classList.contains('dragging')) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
+    }, true);
+
+    // Center first card after a short delay to ensure all content is loaded
+    setTimeout(centerInitialCard, 100);
+
     // Event listeners for the buttons
-    nextButton.addEventListener('click', () => scrollToCard('next'));
-    prevButton.addEventListener('click', () => scrollToCard('prev'));
+    nextButton?.addEventListener('click', () => scrollToCard('next'));
+    prevButton?.addEventListener('click', () => scrollToCard('prev'));
     
-    // Optional: Add keyboard navigation
+    // Add keyboard navigation
     document.addEventListener('keydown', (event) => {
         if (event.key === 'ArrowRight') {
             scrollToCard('next');
         } else if (event.key === 'ArrowLeft') {
             scrollToCard('prev');
         }
+    });
+
+    // Recenter on window resize
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(centerInitialCard, 100);
     });
 });

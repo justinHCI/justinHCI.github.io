@@ -54,8 +54,8 @@ title: Teaching and Supervision
             <h2>Teaching Materials</h2>
             <p> I like experimenting with my teaching materials and techniques. This includes making formal and informal teaching videos, slide decks with jokes and games embeded into the material, and experimentation with different learning environments like Howspace. I especially like trying teaching methods which make my teaching more joyous, more accessible, and less ephemeral, so students can engage with them in different situations,  times, and places.</p>
             <a href="teaching-materials.html" class="button">Check out some selected teaching materials→</a>
-        </div>
-
+        </div>        
+        
         <div class="card">
             <a href="teaching-feedback.html">
                 <img src="/assets/absurd.design - Chapter 1 - 32.png" alt="Teaching Feedback" />
@@ -64,7 +64,27 @@ title: Teaching and Supervision
             <p>Feedback on my teaching and supervision has helped me shape my values as a teacher and commit to them in practice. Feedback I recieve often reflects students feelings of joy and empowerment in my classes, with less emphasis on content mastery for its own sake. I treasure this feedback and would rather be remembered as a teacher who helped students feel capable and helped them have fun rather than one who merely imparted knowledge and awarded a grade.</p>
             <a href="teaching-feedback.html" class="button">Read some selected feedback →</a>
         </div>
+
+        <div class="card">            <a href="reflecting-teaching-development.html">
+                <img src="/assets/absurd.design - Chapter 1 - 08.png" alt="Reflecting Teaching Development" />
+            </a>
+            <h2>Reflecting Teaching Development</h2>
+            <p>My teaching approach has evolved from initially focusing on content mastery to embracing facilitation and social learning. Through my work at the LET lab and university pedagogy courses, I've increasingly emphasized self-regulated learning, metacognitive skills, and constructive alignment. Now I'm focused on challenges like  creating student-focused, reflective learning tasks and assessments which align with learning goals even in the context of growing student reliance on generative AI.</p>
+            <a href="reflecting-teaching-development.html" class="button">Read my full teaching development reflection →</a>
+        </div>
+
+        <div class="card">            <a href="vision.html">
+                <img src="/assets/absurd.design - Chapter 1 - 02.png" alt="Vision of developing teaching" />
+            </a>
+            <h2>Vision of Developing Teaching</h2>
+            <p>My vision for teaching development focuses on fostering student-centered learning, adapting to technological changes like generative AI, and promoting self-regulated learning. I aim to redesign learning activities to encourage collaboration and agency, align assessments with learning goals with awareness of students' reliance on AI tools, and refine my supervisory practices to support students' independence and metacognitive growth.</p>
+            <a href="vision.html" class="button">Read my full vision of developing teaching →</a>
+        </div>
+
+        <!-- Padding card to allow proper centering of last real card -->
+        <div class="card padding-card"></div>
     </div>
+    
     <button class="carousel-btn next">→</button>
 </div>
 
