@@ -3,7 +3,8 @@ layout: default
 title: MAI
 ---
 
-# Meet MAI - A Metacognitive AI Agent developed by the Learning and Educational Technology (LET) Lab at the University of Oulu
+# Meet MAI 
+## A Metacognitive AI Agent developed by the Learning and Educational Technology (LET) Lab at the University of Oulu
 MAI is a Metacognitive AI Agent agent aimed at enhancing metacognitive awareness among learners in collaborative learning settings. MAI proactively recognizes trigger contexts, the situations during learning that neccessitate a regulatory response, and invites groups to raise their metacogntive awareness, facilitating successful regulation.
 
 ## MAI in the news
