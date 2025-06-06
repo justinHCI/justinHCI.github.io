@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Teaching and Supervision
+title: Portfolio
 ---
 <head>
     <meta charset="UTF-8">
