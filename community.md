@@ -9,7 +9,9 @@ title: Community Involvement
 
 I am a Senior Editor for the [International Journal of Human-Computer Studies](https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies/about/editorial-board) (IJHCS).
 
-I regularly serve as an Associate Chair for the Understanding People subcommittee at the [ACM CHI Conference](https://dl.acm.org/conference/chi) and as a paper committee member for the [ACM CUI Conference](https://dl.acm.org/conference/cui).
+I am a Steering Committee member for the [ACM CUI Conference](https://dl.acm.org/conference/cui), serving as Conference Liason in an elected role from 2025-2030.
+
+I regularly serve as an Associate Chair for the Understanding People subcommittee at the [ACM CHI Conference](https://dl.acm.org/conference/chi) and as a paper committee member for CUI.
 
 ## Organizing Committee Membership
 
