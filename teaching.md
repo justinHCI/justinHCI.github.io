@@ -7,7 +7,14 @@ title: Teaching and Supervision
 [See my full teaching portfolio here](/portfolio.html)
 ## Teaching
 
+At Stockton Uniersity I currently teach the following classes:
+- DIGI 2320: Coding for Interactive Media
+- GIS 4662: Digital Storytelling
 
+This spring, I expect to teach the following classes:
+- DIGI 1100: Intro to Digital Studies
+- DIGI 2100: Digital Design Thinking
+- CIST 1206: Statistics
 
 At the University of Oulu, I taught the folowing classes in the Learning and Educational Techology (LET) Mater's program
 
