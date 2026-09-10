@@ -18,12 +18,13 @@ I regularly serve as an Associate Chair for the Understanding People subcommitte
 I have served in the following chair roles in conference organizing committees:
 
 - **ACM CUI Conference**:
-  1. Hybrid Experience Chair (2023, 2025)
-  2. Student Volunteer Chair (2024)
-  3. Virtual Chair (2021)
-  4. Accessibility Chair (2019)
+  1. Program Chair (2026)
+  2. Hybrid Experience Chair (2023, 2025)
+  3. Student Volunteer Chair (2024)
+  4. Virtual Chair (2021)
+  5. Accessibility Chair (2019)
 - **European Conference on Technology-Enhanced Learning**:
-  1. Workshop Chair (2025)
+  1. Workshop Chair (2025, 2026)
 - **ACM Automotive User Interfaces Conference**:
   1. Social Events Chair (2021)
 

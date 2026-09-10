@@ -7,11 +7,12 @@ title: Teaching and Supervision
 [See my full teaching portfolio here](/portfolio.html)
 ## Teaching
 
-I am currently involved in teaching the following courses at the University of Oulu:  
-(see our [course catalog](https://opas.peppi.oulu.fi/en/programme/42549?period=2024-2025) for more info)
+
+
+At the University of Oulu, I taught the folowing classes in the Learning and Educational Techology (LET) Mater's program
 
 - Collaborative Learning Designs
-- Educational Technology Project
+- Educational Technology Projects
 - Socially Shared Regulation of Learning in Research and Practice
 - Quantitative Research Methodology
 - Multimodal Methods in Education and Business Studies
@@ -26,6 +27,6 @@ I have also been involved in teaching the following courses at University Colleg
 
 ## Supervision
 
-I currently am co-supervisor for two PhD students at the University of Oulu. I also supervise two students in the Master's in Learning, Education and Technology (LET) degree program. I have supervised the completed degree of one LET Master's student so far at the University of Oulu. At University College Dublin, I supervised six Master's students in Human-Computer Interaction and Information Systems.
+I currently am co-supervisor for two PhD students at the University of Oulu. I also co-supervise two students in the University of Oulu's LET Master's program. I have previously supervised the completed degrees of four LET Master's students at the University of Oulu and six Master's students in Human-Computer Interaction and Information Systems at University College Dublin.
 
 Prospective students can get into contact via email.
