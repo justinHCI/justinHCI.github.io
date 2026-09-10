@@ -19,5 +19,5 @@ title: Justin Edwards
 
     <p>I teach classes around building and using technology in a human-centered way, to make life more fun and beautiful and simple. I try to make techincal skills like writing, coding, and statistics feel like tools anyone can use to accomplish their goals. My classes emphasize collaboration and self-regulation of learning, where we learn from each other and learn how to figure stuff out when we get stuck.</p>
         
-    <p> My research focuses on the design of AI agents which proactively speak to people and how proactive agent speech impacts people's ongoing tasks. My current research project, the [ARTICULATE project](https://articulate-project.eu/), examines how educational speech technology can be made more engaging for informal audiences in languages other than English.</p>
+    <p> My research focuses on the design of AI agents which proactively speak to people and how proactive agent speech impacts people's ongoing tasks. My current research project, the <a href="https://articulate-project.eu/">ARTICULATE project</a>, examines how educational speech technology can be made more engaging for informal audiences in languages other than English.</p>
 </section>
