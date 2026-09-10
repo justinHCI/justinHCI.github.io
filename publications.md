@@ -9,12 +9,12 @@ title: Publications
 
 ### 2026
 
-- **Vazquez-Alvarez, Y., Aylett, M. P., Cowan, B. R., Edwards, J., Järvelä, S., Konstas, I., & Steeds, M.** (2026). ARTICULATE: Science in your Own Language. In *26th Annual Conference of the European Association for Machine Translation* (p. 23).[Link](file:///C:/Users/edwar194/Downloads/EAMT2026_proceedings_Vol_2.pdf)
-- **Lämsä, J., Sobocinski, M., Edwards, J., & Järvelä, S.** (2026). Students’ socially shared regulation of learning during a collaborative inquiry task: do groups’ diverse preconceptions matter? *International Journal of Science Education, 48*(13), 1978-2000.[Link](https://www.tandfonline.com/doi/full/10.1080/09500693.2025.2504642)
+- **Vazquez-Alvarez, Y., Aylett, M. P., Cowan, B. R., Edwards, J., Järvelä, S., Konstas, I., & Steeds, M.** (2026). ARTICULATE: Science in your Own Language. In *26th Annual Conference of the European Association for Machine Translation* (p. 23). [Link](file:///C:/Users/edwar194/Downloads/EAMT2026_proceedings_Vol_2.pdf)
+- **Lämsä, J., Sobocinski, M., Edwards, J., & Järvelä, S.** (2026). Students’ socially shared regulation of learning during a collaborative inquiry task: do groups’ diverse preconceptions matter? *International Journal of Science Education, 48*(13), 1978-2000. [DOI](https://www.tandfonline.com/doi/full/10.1080/09500693.2025.2504642)
 
 ### 2025
 
-- **Rui, X., Celik, I., & Edwards, J.** (2025). Understanding pre-service teachers’ needs for integrating AI-based tools in instruction through intelligent TPACK framework. *Computers and Education Open*, 100317.[Link](https://www.sciencedirect.com/science/article/pii/S266655732500076X)
+- **Rui, X., Celik, I., & Edwards, J.** (2025). Understanding pre-service teachers’ needs for integrating AI-based tools in instruction through intelligent TPACK framework. *Computers and Education Open*, 100317. [DOI](https://www.sciencedirect.com/science/article/pii/S266655732500076X)
 - **Edwards, J., de Araujo, A., Sobocinski, M., Lämsä, J., Whitehead, R., Roberts, A. S., & Järvelä, S.** (2025). MAI: Supporting Regulation of Learning with a Proactive AI Agent in Collaborative Learning Contexts. *General Proceedings of the 5th Annual Meeting of the International Society of the Learning Sciences 2025*, 22-25. [Link](https://2025.isls.org/proceedings/)
 - **Abulimiti, A., Peña, P. R., Alizadeh, F., Ahire, S., Candello, H., Desai, S., Edwards, J. ... & Cowan, B. R.** (2025). DEBP-PVA: Designing and Evaluating Behavioral Paradigms With Proactive Virtual Agents. *Adjunct Proceedings of the 25th ACM International Conference on Intelligent Virtual Agents*, 1-4. [DOI](https://doi.org/10.1145/3742886.3758118)
 - **Ley, T., Cukurova, M., Edwards, J., Falhs, A. C., Järvelä, S., Kasepalu, R., ... & Zhou, Q.** (2025). Teaching with AI: The Role of Teachers in the Hybrid Intelligent System. *European Conference on Technology Enhanced Learning*, 32-45. [DOI](https://doi.org/10.1007/978-3-032-03873-9_3)
