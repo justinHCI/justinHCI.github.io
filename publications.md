@@ -9,6 +9,8 @@ title: Publications
 
 ### 2026
 
+- **Roberts, AS., Lämsä, J., Edwards, J. , & Järvelä, S.** (2026) Recognition of Triggers for Regulation and Learners’ Regulatory Responses in Agent-Supported Collaborative Learning. Technology, Knowledge and Learning. [DOI](https://doi.org/10.1007/s10758-026-10060-1)
+- **Wang, M., Lämsä, J., Sobocinski, M., Edwards, J., Whitehead, R., & Järvelä, S.** (2026). GenAI-based metacognitive prompting in collaborative inquiry: A comparison across diverse preconception groups. British Journal of Educational Technology, 00, 1–23. [DOI](https://doi.org/10.1111/bjet.70095) 
 - **Vazquez-Alvarez, Y., Aylett, M. P., Cowan, B. R., Edwards, J., Järvelä, S., Konstas, I., & Steeds, M.** (2026). ARTICULATE: Science in your Own Language. In *26th Annual Conference of the European Association for Machine Translation* (p. 23). [Link](file:///C:/Users/edwar194/Downloads/EAMT2026_proceedings_Vol_2.pdf)
 - **Lämsä, J., Sobocinski, M., Edwards, J., & Järvelä, S.** (2026). Students’ socially shared regulation of learning during a collaborative inquiry task: do groups’ diverse preconceptions matter? *International Journal of Science Education, 48*(13), 1978-2000. [DOI](https://www.tandfonline.com/doi/full/10.1080/09500693.2025.2504642)
 
