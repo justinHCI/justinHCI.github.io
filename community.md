@@ -11,22 +11,23 @@ I am a Senior Editor for the [International Journal of Human-Computer Studies](h
 
 I am a Steering Committee member for the [ACM CUI Conference](https://dl.acm.org/conference/cui), serving as Conference Liason in an elected role from 2025-2030.
 
-I regularly serve as an Associate Chair for the Understanding People subcommittee at the [ACM CHI Conference](https://dl.acm.org/conference/chi) and as a paper committee member for CUI.
+I regularly serve as an Associate Chair for [ACM CHI Conference](https://dl.acm.org/conference/chi) and as a paper committee member for CUI, including serving in these roles for the 2026 and 2027 conferences.
 
 ## Organizing Committee Membership
 
 I have served in the following chair roles in conference organizing committees:
 
 - **ACM CUI Conference**:
-  1. Program Chair (2026)
-  2. Hybrid Experience Chair (2023, 2025)
-  3. Student Volunteer Chair (2024)
-  4. Virtual Chair (2021)
-  5. Accessibility Chair (2019)
+  - Provocations Track Chair (2027)
+  - Program Chair (2026)
+  - Hybrid Experience Chair (2023, 2025)
+  - Student Volunteer Chair (2024)
+  - Virtual Chair (2021)
+  - Accessibility Chair (2019)
 - **European Conference on Technology-Enhanced Learning**:
-  1. Workshop Chair (2025, 2026)
+  - Workshop Chair (2025, 2026)
 - **ACM Automotive User Interfaces Conference**:
-  1. Social Events Chair (2021)
+  - Social Events Chair (2021)
 
 ## Reviewing
 
@@ -40,3 +41,4 @@ I regularly review for the following conferences and journals:
 - International Journal of Human-Computer Studies
 - International Journal of Human-Computer Interaction
 - Journal of Computer Supported Cooperative Work
+- British Journal of Educational Technology
